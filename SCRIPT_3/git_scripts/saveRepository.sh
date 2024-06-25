@@ -10,3 +10,5 @@ git add .
 git commit -m"feature/$current_branch/$message"
 
 git push origin "$current_branch"
+
+sleep 10s

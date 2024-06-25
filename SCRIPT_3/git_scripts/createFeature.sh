@@ -10,3 +10,5 @@ echo -e "$opciones" | git flow init
 git flow feature start "$task"
 
 git push --set-upstream origin "feature/$task"
+
+sleep 10s
